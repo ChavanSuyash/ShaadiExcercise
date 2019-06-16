@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:foreground="?android:windowContentOverlay"
+        app:contentInsetStart="0dp"
+        android:paddingStart="3dp"
+        app:layout_collapseMode="pin">
+
+    <LinearLayout
+            android:id="@+id/item_stub_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_horizontal"
+            android:paddingEnd="20dp">
+
+        <ViewStub
+                android:id="@+id/item_stub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>

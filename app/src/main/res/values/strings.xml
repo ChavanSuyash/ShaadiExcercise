@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Shaadi Exercise</string>
+
+    <string name="description">%1$s yrs\n%2$s, %3$s, %4$s\n%5$s</string>
+</resources>
